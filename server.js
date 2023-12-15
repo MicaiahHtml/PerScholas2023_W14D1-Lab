@@ -17,6 +17,7 @@ const Log = require("./models/log.js");
 
 // Global Configuration
 const mongoURI = process.env.MONGO_URI;
+const PORT = process.env.PORT || 3000;
 const db = mongoose.connection;
 
 // Connect to Mongo
@@ -50,6 +51,6 @@ app.get('/', (req, res) => {
     res.render('logs/Home')
 });
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('listening');
 });
