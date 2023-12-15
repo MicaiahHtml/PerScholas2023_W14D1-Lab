@@ -6,7 +6,7 @@ class Show extends React.Component {
 
         return (
             <div>
-                <h1>Ship Log Show Page</h1>
+                <h1>Ship Log SHOWWWW Page</h1>
                 <h2>{log.title}</h2>
                 <p>{log.entry}</p>
                 <br/>
