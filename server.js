@@ -13,7 +13,7 @@ const jsxViewEngine = require('jsx-view-engine');
 
 // Model Configuration
 
-const Log = require("./models/log.js");
+// const Log = require("./models/log.js");
 
 // Global Configuration
 const mongoURI = process.env.MONGO_URI;
